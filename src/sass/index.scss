@@ -1,2 +1,67 @@
 @import './common';
 @import './example';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 30px;
+    background-color: rgb(124, 197, 169);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.recipes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.recipes-list img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.recipes-list__item {
+    flex-basis: calc((100% - 60px) / 3);
+    padding: 20px;
+    background-color: #eecb89;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card__title {
+    flex-grow: 1;
+}
+
+.tag-list {
+    flex: 1 0 0;
+}
+
+.card__button {
+    width: 100%;
+    height: 50px;
+    border: none;
+}
