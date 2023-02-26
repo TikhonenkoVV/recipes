@@ -15,7 +15,7 @@ const setSameHeight = () => {
     };
     console.log(elements);
     for (key in elements) {
-        console.log(key[0].[0]);
+        console.log(key[0]);
     }
     elements.map(element => {
         let heightArray = [];
