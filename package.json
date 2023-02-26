@@ -2,7 +2,7 @@
     "name": "recipes",
     "version": "2.0.0",
     "description": "",
-    "homepage": "https://TikhonenkoVV.github.io/recipes",
+    "homepage": "https://TikhonenkoVV.github.io/recipes/",
     "scripts": {
         "start": "parcel src/*.html",
         "build": "parcel build src/*.html --public-url /recipes/"
